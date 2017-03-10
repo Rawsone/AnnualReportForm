@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+
+    <title>Innopolis University: unit annual report</title>
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../assets/css/material-kit.css"/>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/material.min.js"></script>
+    <script src="../assets/js/nouislider.min.js"></script>
+    <script src="../assets/js/bootstrap-datepicker.js"></script>
+    <script src="../assets/js/material-kit.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="main">
+        <div class="section section-basic">
+            <div class="container">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>Innopolis University: unit annual report</h2>
+                    <p class="text-danger">
+                        * Required</p>
+                    <form>
+                        <fieldset>
+                            <p>This form collects all the information relative to the activity a unit (such as a
+                                laboratory) of Innopolis University over the calendar year. It should include all
+                                activity in which at least one member of the unit has participated.</p>
+                            <div class="form-group">
+                                <input type="button" class="btn btn-primary" value="Start"/>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="form-section-info">
+                                <div class="form-section-info-header"><h3>Section 1: general</h3></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="nameOfUnit" class="input-header">Name of unit</label>
+                                <p class="input-info">Official name, for example laboratory
+                                    name</p>
+                                <input type="text" class="form-control" name="nameOfUnit" id="nameOfUnit" required/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="nameOfHeadOfUnit" class="input-header">Name of head of unit</label>
+                                <input type="text" class="form-control" name="nameOfHeadOfUnit" id="nameOfHeadOfUnit"
+                                       required/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="startReportingPeriod" class="input-header">Start of reporting period (if
+                                    other than
+                                    1.1.2016)</label>
+                                <input type="text" class="datepicker form-control" name="startReportingPeriod"
+                                       id="startReportingPeriod"
+                                       required/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="endReportingPeriod" class="input-header">End of reporting period (if other
+                                    than
+                                    31.12.2016)</label>
+                                <input type="text" class="datepicker form-control" name="endReportingPeriod"
+                                       id="endReportingPeriod"
+                                       required/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="button" class="btn btn-primary" value="Next"/>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="form-section-info">
+                                <div class="form-section-info-header"><h3>Section 2: teaching</h3></div>
+                                <p>This section covers the educational activities of your unit. </p>
+                            </div>
+                            <div class="form-group">
+                                <label for="coursesTaught" class="input-header">Courses taught</label>
+                                <p class="input-info">Numbered list. Include all courses taught
+                                    or
+                                    co-taught by members of your unit. For each item, list: course name; semester
+                                    ("Spring" or "Fall"); level (bachelor, master, PhD); approximate number of
+                                    students.</p>
+                                <input type="text" class="form-control" name="coursesTaught" id="coursesTaught"
+                                       required/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="examinations" class="input-header">Examinations</label>
+                                <p class="input-info">Numbered list. Include all examinations
+                                    administered or co-administered by members of your unit. For each item, list: course
+                                    name; semester ("Spring" or "Fall"); kind of exam (final exam of the course,
+                                    repetition exam); approximate number of students taking the exam.</p>
+                                <input type="text" class="form-control" name="examinations" id="examinations"
+                                       required/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="studentsSupervised" class="input-header">Students supervised</label>
+                                <p class="input-info">For each student, indicate student
+                                    name and nature of work, e.g. bachelor thesis, master thesis, summer
+                                    internship.</p>
+                                <input type="text" class="form-control" name="studentsSupervised"
+                                       id="studentsSupervised"
+                                       required/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="completedStudentReports" class="input-header">Completed student
+                                    reports</label>
+                                <p class="input-info">For each report, indicate
+                                    student name, title of report, as well as publication plans if any.</p>
+                                <input type="text" class="form-control" name="completedStudentReports"
+                                       id="completedStudentReports"
+                                       required/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="completedPhDTheses" class="input-header">Completed PhD theses</label>
+                                <p class="input-info">For each thesis, indicate student
+                                    name, degree (e.g. PhD, Dr. Sc.), name of supervisor, names of other committee
+                                    members, name of degree-granting institution (Innopolis or other), title of
+                                    dissertation.</p>
+                                <input type="text" class="form-control" name="completedPhDTheses"
+                                       id="completedPhDTheses"/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="button" class="btn btn-primary" value="Next"/>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="form-section-info">
+                                <div class="form-section-info-header"><h3>Section 3: research</h3></div>
+                                <p>This section covers research and publication activities of your unit.</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="grants" class="input-header">Grants</label>
+                                <p class="input-info">Numbered list. For each item, list: title of project; granting
+                                    agency; period covered by grant; whether continuation of other grant; amount.</p>
+                                <input type="text" class="form-control" name="grants" id="grants"
+                                       required/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="researchProjects" class="input-header">Research projects</label>
+                                <p class="input-info">Numbered list. Include all significant research themes in which
+                                    members of your unit are involved, whether or not supported by a grant. For each
+                                    item, list: title of project; Innopolis University personnel involved; external
+                                    personnel involved if any; start date of project; expected end date; sources of
+                                    financing.</p>
+                                <input type="text" class="form-control" name="researchProjects" id="researchProjects"
+                                       required/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="researchCollaborations" class="input-header">Research collaborations</label>
+                                <p class="input-info">Numbered list. For each item, indicate: country of institution;
+                                    name of institution (and department or unit if relevant); name of principal contact
+                                    and any other important contacts; nature of collaboration.</p>
+                                <input type="text" class="form-control" name="researchCollaborations"
+                                       id="researchCollaborations"/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="conferencePublications" class="input-header">Conference
+                                    publications</label>
+                                <p class="input-info">Numbered list. Indicate all publications of which members of the
+                                    unit are authors or coauthors. Use standard style for scientific bibliography
+                                    entries.</p>
+                                <input type="text" class="form-control" name="conferencePublications"
+                                       id="conferencePublications"/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="journalPublications" class="input-header">Journal publications</label>
+                                <p class="input-info">Numbered list. Indicate all publications of which members of the
+                                    unit are authors or coauthors. Use standard style for scientific bibliography
+                                    entries.</p>
+                                <input type="text" class="form-control" name="journalPublications"
+                                       id="journalPublications"/>
+                                <span class="material-input"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="button" class="btn btn-primary" value="Next"/>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
